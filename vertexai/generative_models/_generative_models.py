@@ -612,6 +612,7 @@ class _GenerativeModel:
 
         Args:
             history: Previous history to initialize the chat session.
+            raise_on_blocked: Whether to raise an exception if the response was blocked.
 
         Returns:
             A ChatSession object.
